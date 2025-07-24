@@ -9,6 +9,7 @@ import Wishlist from './pages/Wishlist';
 import Shop from './pages/Shop';
 import SingleProduct from './pages/SingleProduct';
 import Checkouts from './pages/Checkouts';
+import { Analytics } from "@vercel/analytics/next"
 
 function App() {
   return (
@@ -25,6 +26,8 @@ function App() {
         <Route path="/product" element={<SingleProduct/>}/>
         <Route path="/checkout" element={<Checkouts/>}/>
       </Routes>
+
+      <Analytics/>
     </>
   );
 }
