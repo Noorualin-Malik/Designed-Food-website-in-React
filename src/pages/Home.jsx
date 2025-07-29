@@ -1,17 +1,17 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
-import banner4 from '../assets/banner4.jpg'
+import banner16 from '../assets/imgi_16_bg_2.jpg'
 import './Home.css'
 import OurProducts from '../components/OurProducts'
 import Reviews from '../components/Reviews'
-import avail from '../assets/avail-removebg-preview.png'
-import quality from '../assets/quality-removebg-preview.png'
-import shipping from '../assets/shipping-removebg-preview.png'
-import fresh from '../assets/fresh-removebg-preview.png'
+import avail from '../assets/imgi_1_icon_error.png'
+import quality from '../assets/imgi_1_icon_error.png'
+import shipping from '../assets/imgi_1_icon_error.png'
+import fresh from '../assets/imgi_1_icon_error.png'
 import Footer from '../components/Footer'
-import apple from '../assets/apple.jpg'
-import cabbage from '../assets/cabbage.jpg'
-import peas from '../assets/peas.jpg'
+import apple from '../assets/imgi_3_product-1.jpg'
+import cabbage from '../assets/imgi_3_product-3.jpg'
+import peas from '../assets/imgi_5_product-5.jpg'
 
 
 
@@ -24,7 +24,7 @@ function Home() {
     <>
       {/* hero section */}
       <div className="card ">
-        <img src={banner4} className="card-img custom-img animate-pop" alt="..." />
+        <img src={banner16} className="card-img custom-img animate-pop" alt="..." />
         <div className="card-img-overlay">
           <h5 className="card-title text-white">Card title</h5>
           <p className="card-text text-white">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>

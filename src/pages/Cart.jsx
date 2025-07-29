@@ -1,10 +1,9 @@
 import React from 'react'
 import Footer from '../components/Footer'
-import banner1 from '../assets/banner1.jpg'
+import banner1 from '../assets/imgi_2_bg_1.jpg'
 import { LuUtensilsCrossed } from "react-icons/lu";
-import carrot from '../assets/carrot.jpg'
-import apple from '../assets/peas.jpg'
-import cabbage from '../assets/cabbage.jpg'
+import carrot from '../assets/imgi_3_product-3.jpg'
+import apple from '../assets/imgi_6_product-4.jpg'
 
 function Cart() {
   return (
@@ -48,7 +47,7 @@ function Cart() {
     </tr>
     <tr>
       <th scope="row" style={{justifyContent:"center", alignContent:"center"}}><LuUtensilsCrossed /></th>
-      <td><img src={cabbage} alt=""  style={{height:"90px", width:"90px"}}/> cabbage</td>
+      <td><img src={carrot} alt=""  style={{height:"90px", width:"90px"}}/> cabbage</td>
       <td style={{justifyContent:"center", alignContent:"center"}}>7$</td>
       <td style={{justifyContent:"center", alignContent:"center"}}>2</td>
     </tr>

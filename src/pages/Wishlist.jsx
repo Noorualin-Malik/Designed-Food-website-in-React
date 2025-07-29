@@ -1,12 +1,12 @@
 import React from 'react'
 import Footer from '../components/Footer'
-import banner5 from '../assets/banner5.jpg'
+import banner5 from '../assets/imgi_2_bg_1.jpg'
 import { LuUtensilsCrossed } from "react-icons/lu";
-import carrot from '../assets/carrot.jpg'
-import apple from '../assets/peas.jpg'
-import cabbage from '../assets/cabbage.jpg'
-import salad from '../assets/salad.jpg'
-import soup from '../assets/soup.jpg'
+import carrot from '../assets/imgi_3_product-3.jpg'
+import apple from '../assets/imgi_6_product-4.jpg'
+import cabbage from '../assets/imgi_4_product-4.jpg'
+import salad from '../assets/imgi_5_product-5.jpg'
+import soup from '../assets/imgi_6_product-6.jpg'
 
 function Wishlist() {
   return (

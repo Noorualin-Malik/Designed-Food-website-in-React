@@ -1,5 +1,5 @@
 import React from 'react'
-import banner4 from '../assets/banner4.jpg'
+import banner4 from '../assets/imgi_2_bg_1.jpg'
 import Footer from '../components/Footer'
 
 function Checkouts() {

@@ -1,5 +1,5 @@
 import React from 'react'
-import banner2 from '../assets/banner2.jpg'
+import banner2 from '../assets/imgi_2_bg_1.jpg'
 import Footer from '../components/Footer'
 
 function Contact() {

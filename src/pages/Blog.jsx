@@ -1,16 +1,15 @@
 import React from 'react'
-import banner5 from '../assets/banner5.jpg'
+import banner6 from '../assets/imgi_15_bg_1.jpg'
 import Footer from '../components/Footer'
-import carrot from '../assets/carrot.jpg'
-import salad from '../assets/salad.jpg'
-import fastfood from '../assets/fastfood.jpg'
-import freshfood from '../assets/fresh juice.jpg'
-import vagetables from '../assets/vagetables.jpg'
+import salad from '../assets/imgi_3_image_1.jpg'
+import fastfood from '../assets/imgi_6_image_4.jpg'
+import freshfood from '../assets/imgi_5_image_3.jpg'
+import vagetables from '../assets/imgi_4_image_2.jpg'
 function Blog() {
   return (
     <>
       <div className="card ">
-        <img src={banner5} className="card-img custom-img animate-pop" alt="..." />
+        <img src={banner6} className="card-img custom-img animate-pop" alt="..." />
         <div className="card-img-overlay">
           <h5 className="card-title text-white">Home Blog</h5>
           <p className="card-text text-white"><small>Last updated 3 mins ago</small></p>
@@ -62,11 +61,11 @@ function Blog() {
             <p className='pt-5 fs-3'>Recent Blog</p>
             <div className="container">
               <div className="row">
-                <div className="col-4"><img src={carrot} alt="" style={{ height: "100px", width: "100px" }} /></div>
+                <div className="col-4"><img src={salad} alt="" style={{ height: "100px", width: "100px" }} /></div>
                 <div className="col-8"><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, maxime sunt.</p></div>
               </div>
               <div className="row">
-                <div className="col-4 pt-5"><img src={salad} alt="" style={{ height: "100px", width: "100px" }} /></div>
+                <div className="col-4 pt-5"><img src={freshfood} alt="" style={{ height: "100px", width: "100px" }} /></div>
                 <div className="col-8 pt-5"><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, maxime sunt.</p></div>
               </div>
               <div className="row">

@@ -1,10 +1,10 @@
 import React from 'react'
-import banner6 from '../assets/banner6.jpg'
+import banner6 from '../assets/imgi_15_bg_1.jpg'
 import Footer from '../components/Footer'
-import avail from '../assets/avail-removebg-preview.png'
-import quality from '../assets/quality-removebg-preview.png'
-import shipping from '../assets/shipping-removebg-preview.png'
-import fresh from '../assets/fresh-removebg-preview.png'
+import avail from '../assets/imgi_1_icon_error.png'
+import quality from '../assets/imgi_1_icon_error.png'
+import shipping from '../assets/imgi_1_icon_error.png'
+import fresh from '../assets/imgi_1_icon_error.png'
 import Reviews from '../components/Reviews'
 
 function About() {

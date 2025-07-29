@@ -1,10 +1,10 @@
 import React, { useState } from 'react'
-import banner4 from '../assets/banner4.jpg'
-import carrot from '../assets/carrot.jpg'
+import banner4 from '../assets/imgi_2_bg_1.jpg'
+import carrot from '../assets/imgi_1_product-1.jpg'
 import Footer from '../components/Footer'
-import apple from '../assets/apple.jpg'
-import cabbage from '../assets/cabbage.jpg'
-import peas from '../assets/peas.jpg'
+import apple from '../assets/imgi_3_product-1.jpg'
+import cabbage from '../assets/imgi_4_product-4.jpg'
+import peas from '../assets/imgi_3_product-3.jpg'
 
 function SingleProduct() {
   const[count, setcount]= useState(1)
